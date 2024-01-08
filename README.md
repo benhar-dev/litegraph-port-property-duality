@@ -2,6 +2,8 @@
 
 This is a small example project to show the modifications to litegraph to allow port property duality as shown below.
 
+![Overview of dev tools](docs/images/overview.gif)
+
 ## Getting started
 
 ### Prerequisite
@@ -12,6 +14,10 @@ You must have both Git and Node.js installed on your computer.
 
 First clone this repo to your local computer.
 
+```
+
+```
+
 ### Install all of the required dependency, including litegraph
 
 Execute the following command inside the root of the new folder.
@@ -20,9 +26,9 @@ Execute the following command inside the root of the new folder.
 npm run setup
 ```
 
-### Check it is working
+### Start the server
 
-Execute the following command to start the development tools.
+Execute the following command to start the development server.
 
 ```
 npm start

@@ -9,5 +9,5 @@ window.addEventListener("resize", function () {
 
 graph.start();
 
-var node = LiteGraph.createNode("Sandpit/SandpitNode");
-canvas.graph.add(node);
+// var node = LiteGraph.createNode("Sandpit/SandpitNode");
+// canvas.graph.add(node);
