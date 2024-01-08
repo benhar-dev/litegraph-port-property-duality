@@ -15,7 +15,7 @@ You must have both Git and Node.js installed on your computer.
 First clone this repo to your local computer.
 
 ```
-
+git clone https://github.com/benhar-dev/litegraph-port-property-duality.git
 ```
 
 ### Install all of the required dependency, including litegraph
