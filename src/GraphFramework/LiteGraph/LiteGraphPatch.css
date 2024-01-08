@@ -1,0 +1,31 @@
+﻿.litegraph .dialog .dialog-content table {
+    margin: 10px;
+}
+
+a {
+    color : lightblue;
+}
+
+
+.link-button-rounded {
+    background-color: dimgray;
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+
+.link-button-rounded {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+    .link-button-rounded:hover {
+        background-color: grey;
+    }

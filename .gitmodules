@@ -1,0 +1,6 @@
+[submodule "litegraph"]
+	path = litegraph
+	url = https://github.com/jagenjo/litegraph.js.git
+[submodule "litegraph.js"]
+	path = litegraph.js
+	url = https://github.com/jagenjo/litegraph.js.git

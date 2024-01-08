@@ -1,0 +1,30 @@
+{
+  "name": "litegraph-dev",
+  "version": "1.0.0",
+  "description": "In order to use this tool you must execute the following two commands\r ```\r git submodule init\r git submodule update\r ```",
+  "main": "litegraph.js",
+  "scripts": {
+    "start": "npm run build & start http://localhost:8000/index.html & npm run live",
+    "setup": "git submodule update --init --recursive && npm install",
+    "build": "grunt build",
+    "watch": "grunt watch",
+    "live": "concurrently --kill-others \"npm run watch\" \"nodemon utils/server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "google-closure-compiler": "^20171112.0.0",
+    "grunt": "^1.1.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-closure-tools": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "nodemon": "^1.19.4",
+    "rimraf": "^2.7.1",
+    "sleep-ms": "^2.0.1"
+  }
+}
